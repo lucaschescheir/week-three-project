@@ -7,47 +7,54 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: limegreen;
+  background: #323e32;
   margin-left: 1px;
   margin-right: 2px;
   border-radius: 4px;
+  margin-top: 0px;
+}
+h1 {
+  width: 320px;
+  margin: 5px 0px 10px;
+  text-align: right;
+  font-size: 2em;
 }
 .calc {
   display: flex;
   flex-wrap: wrap;
-  height: 415px;
-  width: 328px;
+  height: 510px;
+  width: 335px;
   border: 1px solid grey;
   border-radius: 9px;
-  background: green;
+  background: #af3f2d;
   box-shadow: 5px 5px 5px grey;
-
+padding-left: 10px;
 }
 #blank {
-  height: 78px;
-
+  height: 76px;
   width: 240px;
   background: lightgrey;
   box-shadow: 3px 3px 3px grey;
   border-radius: 4px;
-  color: white;
+  color: red;
   font-size: 4em;
   text-align: right;
   border: 1px solid white;
+  margin-left: 2px;
 }
-button:nth-child(6) {
+button:nth-child(7) {
   color: grey;
-  background: lightgreen;
+  background: #c3cac3;
 }
-button:nth-child(10) {
+button:nth-child(11) {
   color: grey;
-  background: lightgreen;
+  background: #c3cac3;
 }
-button:nth-child(14) {
+button:nth-child(15) {
   color: grey;
-  background: lightgreen;
+  background: #c3cac3;
 }
-button:nth-child(18) {
+button:nth-child(19) {
   color: grey;
-  background: lightgreen;
+  background: #c3cac3;
 }
